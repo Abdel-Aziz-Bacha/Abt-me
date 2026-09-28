@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdel Aziz Bacha | Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="top-actions">
+      <button class="action-button" id="printBtn" type="button">Print / Save PDF</button>
+      <button class="action-button secondary" id="copyEmailBtn" type="button">Copy email</button>
+    </div>
+
+    <div class="page">
+      <aside class="sidebar">
+        <div class="profile-block">
+          <img class="avatar" src="me.jpg" alt="Abdel Aziz Bacha" />
+          <h1>Abdel Aziz Bacha</h1>
+          <p class="role">Product Designer / Frontend Developer / 1st Year Student</p>
+        </div>
+
+        <section class="sidebar-section">
+          <h2>Contact</h2>
+          <ul class="info-list">
+            <li><span>Email</span><a href="mailto:bachaabdelaziz36@gmail.com">bachaabdelaziz36@gmail.com</a></li>
+            <li><span>Phone</span><a href="tel:+21692926666">+216 92 92 66 66</a></li>
+            <li><span>Location</span><p>Tunisia , Sousse</p></li>
+          </ul>
+        </section>
+
+        <section class="sidebar-section">
+          <h2>Skills</h2>
+          <div class="tag-list">
+            <span>UI/UX</span>
+            <span>HTML 5</span>
+            <span>CSS 3</span>
+            <span>JavaScript</span>
+            <span>Node.Js</span>
+            <span>PhP</span>
+            <span>Pyhton</span>
+            <span>SQL</span>
+          </div>
+        </section>
+
+        <section class="sidebar-section">
+          <h2>Languages</h2>
+          <ul class="mini-list">
+            <li><strong>Arabic</strong> – Native</li>
+            <li><strong>French</strong> – Native</li>
+            <li><strong>English</strong> – Fluent</li>
+            <li><strong>German</strong> – Basic</li>
+          </ul>
+        </section>
+
+        <section class="sidebar-section">
+          <h2>Certifications</h2>
+          <ul class="mini-list cert-aside-list">
+            <li>----------------------</li>
+            <li>----------------------</li>
+            <li>----------------------</li>
+          </ul>
+        </section>
+      </aside>
+
+      <main class="content">
+        <header class="hero">
+          <p class="eyebrow">Profile</p>
+          <h2>Creative problem solver with a passion for designing clean, user-focused digital experiences.</h2>
+        </header>
+
+        <section class="achievements detached-panel">
+          <div class="section-heading">
+            <h3>Achievements</h3>
+          </div>
+          <div class="achievement-grid">
+            <div class="achievement-item">
+              <span class="achievement-number">Très Bien</span>
+              <p>Baccalauréat Sciences Informatiques — Très Bien</p>
+            </div>
+            <div class="achievement-item">
+              <span class="achievement-number">183.21</span>
+              <p>Tunisian university orientation score</p>
+            </div>
+            <div class="achievement-item">
+              <span class="achievement-number">Currently:</span>
+              <p>Developing a files sorter using Python</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="section-heading">
+            <h3>Experience</h3>
+          </div>
+
+          <article class="job">
+            <div class="job-meta">
+              <h4>---------------------------</h4>
+              <span>2022 — Present</span>
+            </div>
+            <p class="company">-----------------</p>
+            <ul>
+              <li>----------------------------------------------------</li>
+              <li>----------------------------------------------------</li>
+              <li>----------------------------------------------------</li>
+            </ul>
+          </article>
+          <article class="job">
+            <div class="job-meta">
+              <h4>---------------------------</h4>
+              <span>2022 — Present</span>
+            </div>
+            <p class="company">------------------</p>
+            <ul>
+              <li>----------------------------------------------------</li>
+              <li>----------------------------------------------------</li>
+              <li>----------------------------------------------------</li>
+            </ul>
+          </article>
+          <article class="job">
+            <div class="job-meta">
+              <h4>---------------------------</h4>
+              <span>2022 — Present</span>
+            </div>
+            <p class="company">------------------</p>
+            <ul>
+              <li>----------------------------------------------------</li>
+              <li>----------------------------------------------------</li>
+              <li>----------------------------------------------------</li>
+            </ul>
+          </article>
+
+          
+        </section>
+
+        <section class="card">
+          <div class="section-heading">
+            <h3>Education</h3>
+          </div>
+
+          <article class="edu-item">
+            <div class="edu-row">
+              <div>
+                <h4>Lycee Said Abou Bakr / Computer Science</h4>
+                <p class="company">High School</p>
+              </div>
+              <span>2022 — 2026</span>
+            </div>
+
+            <div class="edu-row">
+              <div>
+                <h4>ISSATSo / Computer Science</h4>
+                <p class="company">University</p>
+              </div>
+              <span>Currently...</span>
+            </div>
+          </article>
+        </section>
+
+        <section class="card">
+          <div class="section-heading">
+            <h3>Projects</h3>
+          </div>
+
+          <article class="project-item">
+            <div class="project-header">
+              <h4>Portfolio Platform</h4>
+            </div>
+            <p>Built a personal portfolio site featuring case studies, branding work, and responsive visuals for clients and recruiters.</p>
+          </article>
+
+          <article class="project-item">
+            <div class="project-header">
+              <h4>--------------------</h4>
+              <a href="#">GitHub</a>
+            </div>
+            <p>--------------------------------------------------------------</p>
+          </article>
+        </section>
+
+      </main>
+    </div>
+
+    <script>
+      const printBtn = document.getElementById('printBtn');
+      const copyEmailBtn = document.getElementById('copyEmailBtn');
+      const root = document.documentElement;
+
+      root.setAttribute('data-theme', 'dark');
+
+      printBtn.addEventListener('click', () => window.print());
+
+      copyEmailBtn.addEventListener('click', async () => {
+        const email = 'bachaabdelaziz36@gmail.com';
+        try {
+          await navigator.clipboard.writeText(email);
+          copyEmailBtn.textContent = 'Copied!';
+          setTimeout(() => {
+            copyEmailBtn.textContent = 'Copy email';
+          }, 1400);
+        } catch (error) {
+          window.location.href = 'mailto:' + email;
+        }
+      });
+    </script>
+  </body>
+</html>
